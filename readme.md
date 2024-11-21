@@ -1,4 +1,4 @@
-# python tutorial
+# Chapter-1 Introduction to python
 
 ### Why python?
 ***
@@ -26,5 +26,13 @@
 1. Object-oriented programming model
 1. Event-driven programming model
 
+# Chapter-2 Getting Started
+There are different python implementations are:
+- **`CPython`**: CPython is the reference implementation of the Python programming language, CPython compiles Python code into bytecode before interpreting it. It's compatible with various Python packages and modules
+- **`PyPy`**: 
+- **`Jython`**: 
+- **`IronPython`**: 
+
+All the implementations are compiler as well as interpreters. The compiler convert the python program into intermediate bytecode. Then the intepreter interprets this bytecode
 
 
