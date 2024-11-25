@@ -108,7 +108,7 @@ Output:
 
 expand the chapter-3 folder and inside that you will find keywords.py file and execute. 
 
-**`Program 2.1`**
+**`Program 3.1`**
 
 **Write a program to print the list of keywords in python available.**
 
@@ -133,3 +133,10 @@ mna@DESKTOP-194LI0R:/mnt/d/let-us-python/chapter-3$ python3 keywords.py
 ```
 
 **`Note:`** if you observe that, we written program to print the list of keyword, and output is coming in list form, In python we define list as in square brackate **[]**. 
+
+### **Python Data Types**
+Python supports **three (3)** categories of **data types**.
+
++ **`Basic data type:`** **int**, **float**, **complex**, **bool**, **string**, and **bytes** 
++ **`Container type:`** **list**, **tuple**, **set** and **dict**
++ **`User-define type:`** **class**
