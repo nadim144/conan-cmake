@@ -61,11 +61,11 @@ After installation of python on your respective OS (Windows/Linux) on your prefe
 ### **Compilation Approach in Python.**
 [To Do]
 
-After all this. Let's write our first program in python. Usally in C/C++ programming laguage we write **Hello World!** program. But here, as a our first python program I would like to differ from traditional **Hello World** program. Instead of that, I would prefer wirte our first python program to find which **version of python** is install in out machine either Windows/Linux.
+**After all this.** Let's write our first program in python. Usally in C/C++ programming laguage we write **Hello World!** program. But here, as a our first python program I would like to differ from traditional **Hello World** program. Instead of that, I would prefer wirte our first python program to find which **version of python** is install in out machine either Windows/Linux.
 
-Let's open VS code and create a folder, named as **chapter-2** and inside that folder create a python file named as **version.py**
+Let's open VS code and create a folder, named as **[chapter-2]** and inside that folder create a python file named as **version.py**
 
-`Note:` In Python `semicolon (;)` is completlly optional, either you put or not put at the end of statement it is upto you. if you are C/C++ programming background then probably you are habituate putting semicolon at the end. if you doesn't put, It doesn't impact on you program. I have written both version of code with semicolon and without semicolon. Both version will work fine. Trust me. 
+**`Note:`** In Python `semicolon (;)` is completlly optional, either you put or not put at the end of statement it is upto you. if you are C/C++ programming background then probably you are habituate putting semicolon at the end. if you doesn't put, It doesn't impact on you program. I have written both version of code with semicolon and without semicolon. Both version will work fine. Trust me. 
 
 **With semicolon (;)**
 ```
@@ -96,3 +96,40 @@ Output:
 ```
 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0]
 ```
+# Chapter-3 Python Basics
+
+### **Identifiers and Keywords**
++ Python is a case sensetive language, and python identifier is a name used to identify a variable, funtion, class, module and other objects.
++ python has 35 keywords and all keywords are in lowercase.
+
+![alt text](https://i.pinimg.com/originals/6d/70/99/6d7099fda7524830e6ceaf840b97974a.jpg)
+
+**I have one idea,** why not let's print the kywords list. So, below is program which print the list of keyword available in python. 
+
+expand the chapter-3 folder and inside that you will find keywords.py file and execute. 
+
+**`Program 2.1`**
+
+**Write a program to print the list of keywords in python available.**
+
+```
+import keyword
+print(keyword.kwlist)
+```
++ To print the list of keyword we need to import the **`keyword`** module
++ Then after print the keyword list, using **`print(keyword.kwlist)`**
+
+Lets execute the program on Windows and Linux.
+
+**Windows :**
+```
+PS D:\let-us-python\chapter-3> python .\keywords.py
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+```
+**Linux :**
+```
+mna@DESKTOP-194LI0R:/mnt/d/let-us-python/chapter-3$ python3 keywords.py 
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+```
+
+**`Note:`** if you observe that, we written program to print the list of keyword, and output is coming in list form, In python we define list as in square brackate **[]**. 
