@@ -98,7 +98,7 @@ Output:
 ```
 # Chapter-3 Python Basics
 
-### **Identifiers and Keywords**
+## **Identifiers and Keywords**
 + Python is a case sensetive language, and python identifier is a name used to identify a variable, funtion, class, module and other objects.
 + python has 35 keywords and all keywords are in lowercase.
 
@@ -134,9 +134,18 @@ mna@DESKTOP-194LI0R:/mnt/d/let-us-python/chapter-3$ python3 keywords.py
 
 **`Note:`** if you observe that, we written program to print the list of keyword, and output is coming in list form, In python we define list as in square brackate **[]**. 
 
-### **Python Data Types**
+## **Python Data Types**
 Python supports **three (3)** categories of **data types**.
 
 + **`Basic data type:`** **int**, **float**, **complex**, **bool**, **string**, and **bytes** 
 + **`Container type:`** **list**, **tuple**, **set** and **dict**
 + **`User-define type:`** **class**
+
+### **Basic data type:**
+There are different basic data types in python are **int**, **float**, **complex**, **bool**, **string**, and **bytes** 
+
+Let's discuss about **int** means **integer** types. In python **integer** data type can be express in the form of **Binary**, **Decimal**, **Octal** and **Hexadecimal**. 
++ Where Binary will start with **0b/0B** example: **0b10111** or **0B10111**
++ Decimal is normal decimal value like: **156**
++ And **Octal** will start with **0o/0O** example - **0o432** or **0O432**
++ And final Hexadecimal will start with  
