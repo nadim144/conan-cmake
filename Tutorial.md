@@ -144,8 +144,20 @@ Python supports **three (3)** categories of **data types**.
 ### **Basic data type:**
 There are different basic data types in python are **int**, **float**, **complex**, **bool**, **string**, and **bytes** 
 
-Let's discuss about **int** means **integer** types. In python **integer** data type can be express in the form of **Binary**, **Decimal**, **Octal** and **Hexadecimal**. 
+Let's discuss it one by one. start with **int** means **integer** types. In python **integer** data type can be express in the form of **Binary**, **Decimal**, **Octal** and **Hexadecimal**. 
 + Where Binary will start with **0b/0B** example: **0b10111** or **0B10111**
 + Decimal is normal decimal value like: **156**
 + And **Octal** will start with **0o/0O** example - **0o432** or **0O432**
-+ And final Hexadecimal will start with  
++ And last Hexadecimal will start with **0x/0X** example - **0x4A3** or **0X4A3**
+
+**float** basic data type can be express in **fractional** or **exponential** form. as an example - **314.1528**, **3.141528e2** and **3.141528E2**
+
+**complex** basic data type contains **real** and **imaginary** part. as an example - **3+2j** where **3** is real part and **2j** is imaginary part.
+
+**bool** basic data type can have any of two boolean value **True** and **False**, firs character of value will capital.
+
+**string** basic data type is and immutable collection of unicode characters enclosed within **' '**, **" "**, **""" """**. examples - **'Md Nadim Ahmad'**, **"Md Nadim Ahmad"** and **"""Md Nadim Ahmad"""**.
+
+**byte** basic data type is **[To Do]**
+
+**`Note:`** Type of data type can be found using **type()** function. Let undersatnad with examples.  
