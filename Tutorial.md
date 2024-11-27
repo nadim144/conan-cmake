@@ -172,8 +172,8 @@ Let's discuss it one by one. start with **int** means **integer** types. In pyth
 expand the chapter-3 folder and you will find **finddatatype.py** file.
 ```
 i = 35;
-typeof = type(i);
-print(typeof);
+detectedtypeof = type(i);
+print(detectedtypeof);
 
 d = 3.14
 print(type(d));
@@ -181,4 +181,18 @@ print(type(d));
 str = "Nadim";
 print(type(str));
 ```
-Let's understand program line by line. 
+Let's understand program line by line. first of all to execute this program we don't required to import module as we did  earlier **import sys** and **import keyword** in past two program respectively in chapter-2 (version.py) and chapter-3 (kyword.py). 
+
+**For the 35**, I taken one variable **i** and assign value **35** in it and taken another variable **detectedtypeof** which get assign by return value of **type(i)** and next we print the **detectedtypeof** which output will **<class 'int'>** because 35 is interger value.
+
+**For the 3.14,** I optimize online of code, instead of creating extra variable "detectedtypeof" directly we pass **type(d)** into **print()** method. where **d** is variable which get assign by the value **3.14**. and which output will be **<class 'float'>**, because 3.14 is float value.
+
+**For Nadim**, same as 3.14. and output will be **<class 'str'>**, beacuse Nadim is a string value. 
+
+**Now, Let see the output:** I executed this program on Windows, however on Linux the output will be same.
+```
+PS D:\let-us-python\chapter-3> python .\finddatatype.py
+<class 'int'>
+<class 'float'>
+<class 'str'>
+```

@@ -1,7 +1,7 @@
 
 i = 35;
-typeof = type(i);
-print(typeof);
+detectedtypeof = type(i);
+print(detectedtypeof);
 
 d = 3.14
 print(type(d));
