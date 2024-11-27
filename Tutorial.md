@@ -160,4 +160,25 @@ Let's discuss it one by one. start with **int** means **integer** types. In pyth
 
 **byte** basic data type is **[To Do]**
 
-**`Note:`** Type of data type can be found using **type()** function. Let undersatnad with examples.  
+**`Note:`** Type of data type can be found using **type()** function. Let undersatnad with examples. 
+
+**`Program 3.2`**
+
+**Write a program to find the data type of following values:**
+- 35 
+- 31.4 
+- Nadim
+
+expand the chapter-3 folder and you will find **finddatatype.py** file.
+```
+i = 35;
+typeof = type(i);
+print(typeof);
+
+d = 3.14
+print(type(d));
+
+str = "Nadim";
+print(type(str));
+```
+Let's understand program line by line. 
