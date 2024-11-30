@@ -57,9 +57,9 @@ After installation of python on your respective OS (Windows/Linux) on your prefe
 + **`pip`** is commonly used tool for installing packages from **`PyPi`**. This tool get installed when you install Python for Windows.
 
 ### **Compilation Approach in C/C++.**
-[To Do] - It might be you think why C/C++ compilation process is required to know. because we are comparing statically type vs dynamic type language.
+**[To Do]** - It might be you think why C/C++ compilation process is required to know. because we are comparing statically type vs dynamic type language.
 ### **Compilation Approach in Python.**
-[To Do]
+**[To Do]** - Same as above point along with get to know how interpretor works. 
 
 **After all this.** Let's write our first program in python. Usally in C/C++ programming laguage we write **Hello World!** program. But here, as a our first python program I would like to differ from traditional **Hello World** program. Instead of that, I would prefer wirte our first python program to find which **version of python** is install in out machine either Windows/Linux.
 
