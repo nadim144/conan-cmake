@@ -57,7 +57,7 @@ After installation of python on your respective OS (Windows/Linux) on your prefe
 + **`pip`** is commonly used tool for installing packages from **`PyPi`**. This tool get installed when you install Python for Windows.
 
 ### **Compilation Approach in C/C++.**
-[To Do]
+[To Do] - It might be you think why C/C++ compilation process is required to know. because we are comparing statically type vs dynamic type language.
 ### **Compilation Approach in Python.**
 [To Do]
 
