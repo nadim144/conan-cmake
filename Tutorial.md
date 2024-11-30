@@ -2,8 +2,8 @@
 
 ### Why python?
 ***
-* Python is not a statically typed language, it is dynamically typed. 
-* python is cross functional means program portability - porting program to new platform ussally need only cut and paste. This is true even for GUI, DB Access, Web programming, OS interfacing and Directory access.
+* Python is dynamically typed langauage, where C/C++ are statically type language.. 
+* python is cross functional (Windows/Linux/MacOS) means program portability - porting program to new platform ussally need only cut and paste. This is true even for GUI, DB Access, Web programming, OS interfacing and Directory access.
 * strong libray support from text matching to networking and vast collection of third-party libraries.
 * very easy to component integration.
 
@@ -20,14 +20,14 @@
 
 ### What programming model does python supports?
 ***
-**Answer**: python supports all **`4`** programming models
+**Answer**: python supports all `4` programming models
 1. Function programming model
 1. Procedural programming model
 1. Object-oriented programming model
 1. Event-driven programming model
 
 # Chapter-2 Getting Started
-There are different python implementations are: (Need-to-update/To-Do)
+There are different python implementations are: [To-Do]
 - **`CPython`**: CPython is the reference implementation of the Python programming language, CPython compiles Python code into bytecode before interpreting it. It's compatible with various Python packages and modules
 - **`PyPy`**: 
 - **`Jython`**: 
@@ -35,10 +35,10 @@ There are different python implementations are: (Need-to-update/To-Do)
 
 `Note:` All the implementations are compiler as well as interpreters. The compiler convert the python program into intermediate bytecode. Then the intepreter interprets this bytecode
 
-### **-- Python Installation under Windows.**
+### **Python Installation under Windows.**
 Please follow this link: [Python Installation under Windows](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
 
-### **-- Python Installation under Linux (Ubuntu 24.04 LTS)**
+### **Python Installation under Linux (Ubuntu 24.04 LTS)**
 Please follow this link: [Python Installation under Linux (Ubuntu 24.04 LTS)](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
 
 After installation of python on your respective OS (Windows/Linux) on your preference. I would reccomend to learn something about package, What is package and who create pakage and how it available for end users? `Here package means Third-party pakage.`
